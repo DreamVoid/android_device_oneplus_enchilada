@@ -11,6 +11,9 @@ odm/etc/acdbdata/MTP/MTP_Headset_cal.acdb
 odm/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 odm/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
 
+# ADSP modules
+vendor/lib/rfsa/adsp/dirac_resource.dar
+
 # Camera
 vendor/lib/camera/oneplus6_vstab_db_0_1080p_video_30fps.config
 vendor/lib/camera/oneplus6_vstab_db_0_1080p_video_60fps.config
@@ -18,6 +21,7 @@ vendor/lib/camera/oneplus6_vstab_db_0_4k_video_30fps.config
 vendor/lib/camera/oneplus6_vstab_db_0_720p_video_30fps.config
 vendor/lib/camera/oneplus6_vstab_db_1_1080p_video_30fps.config
 vendor/lib/camera/oneplus6_vstab_db_1_720p_video_30fps.config
+vendor/lib/hw/camera.qcom.so
 
 # Fingerprint
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.oneplus
@@ -50,3 +54,13 @@ vendor/etc/sensors/config/sdm845_stk36xx_0.json
 
 # Touchscreen
 vendor/etc/firmware/tp/fw_synaptics_17819.img
+
+# Graphics (Adreno firmware)
+vendor/firmware/a630_zap.b01
+vendor/firmware/a630_zap.elf
+vendor/firmware/a630_zap.mdt
+
+# IPA firmware
+vendor/firmware/ipa_fws.b01
+vendor/firmware/ipa_fws.elf
+vendor/firmware/ipa_fws.mdt

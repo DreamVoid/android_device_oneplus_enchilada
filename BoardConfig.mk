@@ -19,6 +19,10 @@ include device/oneplus/sdm845-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/oneplus/enchilada
 
+# Assertions
+TARGET_OTA_ASSERT_DEVICE := OnePlus6,oneplus6,enchilada
+TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
+
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
